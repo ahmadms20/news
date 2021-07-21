@@ -1,0 +1,36 @@
+.content {
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.content:hover {
+    color: #21409a;
+    text-decoration: underline;
+}
+
+.utama {
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.utama:hover {
+    color: #458cff;
+}
+
+.zoom {
+    border-radius: 5px;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
